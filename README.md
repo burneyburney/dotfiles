@@ -1,2 +1,6 @@
 # dotfiles
-my configuration files (things that begin with a dot)
+
+---------------
+Items in folder -
+
+    bash profile
