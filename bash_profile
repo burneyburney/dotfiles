@@ -13,6 +13,7 @@
 # directory shortcut aliases
 #   -------------------------------------------------------------
     alias githubfun="cd ~/documents/githubFun/"
+    alias catr='cat README.md'
 
 # git shortcuts
 #   -------------------------------------------------------------
@@ -32,7 +33,7 @@
 #   Command History Settings
 #   -------------------------------------------------------------
     export HISTCONTROL=ignoreboth:erasedups
-    export HISTIGNORE='pwd:ls:cd:cds:cl:sprof:mv:c:..l:...l:cdd:cdr:..:...:.3:.4:.4:.6:doc:brewup:xcb:.p:cla'
+    export HISTIGNORE='pwd:ls:cd:cds:cl:sprof:mv:c:..l:...l:cdd:cdr:..:...:.3:.4:.4:.6:doc:brewup:xcb:.p:cla:l'
 
 # idk if this stuff works anymore.. but nothings broken... so its staying
 #   -------------------------------------------------------------
@@ -42,3 +43,5 @@
 # The original version is saved in .bash_profile.pysave
     PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
     export PATH
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
